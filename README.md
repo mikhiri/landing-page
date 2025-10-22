@@ -1,10 +1,8 @@
-# Happy Hands Classes - Local Copy
+# Happy Hands Classes
 
-A fully functional local copy of the Happy Hands Classes landing page, built with React, Vite, and Tailwind CSS.
+Alanding page built with React, Vite, and Tailwind CSS.
 
-## Original Source
 
-This project is a local replica of: https://happy-hands-classes.lovable.app/
 
 ## Tech Stack
 
