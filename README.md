@@ -116,21 +116,6 @@ Located in `src/components/Card.tsx`
 - Props: `className`
 - Base styles: `bg-card`, `rounded-3xl`, `p-8`
 
-## Assets
-
-All images are stored locally in `src/assets/`:
-- **hero-kids-learning.jpg** - Main hero image (153KB)
-
-All assets work completely offline after build.
-
-## Differences from Original
-
-This is a faithful recreation with the following notes:
-- Uses Lucide React icons instead of the original icon set
-- Built with Vite instead of Lovable's custom tooling
-- TypeScript for type safety
-- Component-based architecture for maintainability
-- All external resources (images, fonts) are referenced via CDN or local assets
 
 ## Development Notes
 
@@ -140,6 +125,3 @@ This is a faithful recreation with the following notes:
 - Font (Poppins) loaded from Google Fonts CDN
 - Icons from Lucide React library
 
-## License
-
-This is a learning/demonstration project. The original design belongs to the Happy Hands Classes website.
