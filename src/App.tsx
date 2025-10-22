@@ -29,17 +29,14 @@ function App() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-8 animate-fade-in-up">
               <h1 className="text-5xl lg:text-6xl leading-tight">
-                Fun Learning Classes for <span className="text-primary">Kids</span> Ages 5-9
+                Нескучные занятия для <span className="text-primary">детей</span> 5-9 лет 
               </h1>
               <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed">
-                Engaging private classes for children aged 5-9, taught by a qualified and experienced teacher who nurtures curiosity and confidence.
+                Помогаю понять и полюбить учёбу через игру и творчество.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" className="text-lg rounded-full px-8 py-6 shadow-soft hover:scale-105 transition-transform">
-                  Book a Free Trial
-                </Button>
-                <Button size="lg" variant="outline" className="text-lg rounded-full px-8 py-6 border-2 hover:scale-105 transition-transform">
-                  Learn More
+                  Записаться на бестлатное занятие
                 </Button>
               </div>
             </div>
@@ -58,26 +55,26 @@ function App() {
       <section className="py-20 px-6">
         <div className="container mx-auto max-w-6xl">
           <h2 className="text-4xl md:text-5xl text-center mb-16">
-            Why Kids <span className="text-secondary">Love</span> Our Classes
+            Развиваем <span className="text-secondary">интерес</span> к учёбе
           </h2>
           <div className="grid md:grid-cols-3 gap-8">
             {[
               {
                 icon: <Heart className="w-12 h-12" />,
-                title: 'Personalized Care',
-                description: 'Small group sizes mean every child gets individual attention and support tailored to their learning style.',
+                title: 'Через игру',
+                description: 'Учимся легко и с интересом — через игровые задания, творчество и живые примеры из жизни.',
                 color: 'text-secondary',
               },
               {
                 icon: <Sparkles className="w-12 h-12" />,
-                title: 'Fun & Engaging',
-                description: 'Learning through play, games, and hands-on activities that make education exciting and memorable.',
+                title: 'С заботой',
+                description: 'Тёплая атмосфера и внимание к каждому ребёнку — без давления, с поддержкой и добротой.',
                 color: 'text-primary',
               },
               {
                 icon: <CheckCircle2 className="w-12 h-12" />,
-                title: 'Proven Results',
-                description: 'Structured curriculum designed by an experienced educator with a track record of student success.',
+                title: 'С результатом',
+                description: 'Постепенно укрепляем знания и уверенность — чтобы успехи в школе стали естественным результатом.',
                 color: 'text-accent',
               },
             ].map((item, index) => (
@@ -95,14 +92,14 @@ function App() {
       <section className="py-20 px-6 bg-muted/30">
         <div className="container mx-auto max-w-4xl text-center">
           <h2 className="text-4xl md:text-5xl mb-8">
-            Meet Your <span className="text-primary">Expert Teacher</span>
+            О преподавателе
           </h2>
           <div className="bg-card rounded-3xl p-10 shadow-card">
             <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed mb-6">
-              With over 10 years of experience in early childhood education and a certified teaching qualification, I'm passionate about creating a warm, supportive environment where every child can thrive.
+              Я — Зубкова Евгения Владимировна, учительница начальных классов первой квалификационной категории с опытом работы более 10 лет.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              I believe that learning should be joyful, engaging, and adapted to each child's unique pace. My approach combines proven educational methods with creativity and patience, helping children build strong foundations in reading, math, and critical thinking while developing confidence and a love for learning.
+              Моя главная цель — не просто объяснить материал, а раскрыть способности ребёнка и развить уверенность в себе. На занятиях мы много играем, обсуждаем, рассуждаем и ищем ответы вместе. Я подбираю задания так, чтобы ребёнок учился с увлечением и удовольствием, без страха ошибок.
             </p>
           </div>
         </div>
