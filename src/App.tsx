@@ -7,8 +7,25 @@ function App() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="min-h-svh py-20 px-6 gradient-hero flex items-center">
-        <div className="container mx-auto max-w-6xl">
+      <section className="min-h-svh py-20 px-6 gradient-hero flex items-center relative overflow-hidden">
+        {/* Decorative elements */}
+        <div className="absolute inset-0 pointer-events-none">
+          {/* Stars with spinning animation */}
+          <Sparkles className="absolute top-12 left-12 w-12 h-12 text-primary/60 animate-spin-slow" />
+          <Sparkles className="absolute top-[15%] right-[15%] w-10 h-10 text-accent/50 animate-spin-slow" style={{ animationDelay: '1s' }} />
+          <Star className="absolute bottom-[35%] right-[8%] w-8 h-8 text-secondary/50 animate-spin-slow" style={{ animationDelay: '2s' }} />
+          <Sparkles className="absolute bottom-[15%] right-[35%] w-10 h-10 text-primary/40 animate-spin-slow" style={{ animationDelay: '0.5s' }} />
+
+          {/* Dots */}
+          <div className="absolute top-[20%] left-[5%] w-4 h-4 rounded-full bg-primary/40" />
+          <div className="absolute top-[25%] right-[30%] w-3 h-3 rounded-full bg-secondary/50" />
+          <div className="absolute top-[60%] left-[8%] w-3 h-3 rounded-full bg-accent/50" />
+          <div className="absolute bottom-[20%] left-[15%] w-4 h-4 rounded-full bg-secondary/40" />
+          <div className="absolute top-[45%] right-[5%] w-3 h-3 rounded-full bg-accent/40" />
+          <div className="absolute bottom-[40%] right-[45%] w-4 h-4 rounded-full bg-primary/30" />
+        </div>
+
+        <div className="container mx-auto max-w-6xl relative z-10">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-8 animate-fade-in-up">
               <h1 className="text-5xl lg:text-6xl leading-tight">
